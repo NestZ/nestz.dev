@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "nestz.dev"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "A site for my useless knowledge"
+  tagline: If you are reading this, then you are useless too.
   actions:
     - theme: brand
       text: Markdown Examples
