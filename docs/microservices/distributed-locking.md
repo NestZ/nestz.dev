@@ -96,7 +96,7 @@ note over "Service B" : Append "abc" to file content
 "Blob storage" <- "Service B" : Update a.txt content
 note over "Blob storage" : current file content = "abcabcabc"
 
-"Blob storage" <- "Service B" : ReleaseLock with key "a.txt"
+"Global lock" <- "Service B" : ReleaseLock with key "a.txt"
 note over "Global lock" : "a.txt" unlocked
 ```
 
